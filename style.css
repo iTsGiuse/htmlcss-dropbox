@@ -113,6 +113,16 @@ footer{
     flex-direction: row;
     flex-wrap: wrap;
 }
+.flex-space-evenly{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+.flex-column{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
 /* FINE DISPLAY */
 
 /* INIZIO IMMAGINI */
@@ -141,6 +151,10 @@ h2{
 .txt-grigio{
     color: grey;
 }
+.txt-white{
+    color: white;
+    margin-bottom: 20px;
+}
 .txt-title-clienti{
     font-size: 60px;
 }
@@ -155,6 +169,23 @@ h2{
 .angolo_giu{
     text-align: right;
     margin-right: 30px;
+}
+
+.mondo{
+    display: flex;
+    margin-left: 68px;
+    margin-top: 50px;
+    margin-right: 2px;
+    color: grey;
+    font-size: 15px;
+    
+}
+.angolo_su{
+    margin-left: 3px;
+    display: flex;
+    margin-top: 50px;
+    color: grey;
+    font-size: 15px;
 }
 
 /* FINE ICONCINE */
@@ -173,7 +204,7 @@ h2{
     font-size: 20px;
     margin-top: 5px;
     margin-bottom: 5px;
-   
+    gap: 10px;
 }
 .ul_offerte, .li_offerte{
     list-style-type: none;
@@ -268,6 +299,13 @@ input{
     margin-top: 40px;
     margin-bottom: 40px;
 }
+.hr_footer{
+    border-top: 1px solid grey;
+    width: 100px;
+    margin-left: 72px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+ }
 
 .btn-offerte{
     width: 300px;
