@@ -17,10 +17,6 @@ footer{
    background-color: black;
 }
 
-.section-distance{
-    margin-top: 150px;
-    margin-bottom: 150px;
-}
 
 /* INIZIO CONTAINER  */
 .container{
@@ -165,7 +161,7 @@ h2{
     font-size: 15px;
 }
 .link_nero{
-    color : #474747;
+    color : blue;
 }
 .link_bianco{
     color : white;
@@ -201,6 +197,11 @@ input{
     margin-top: 30px;
     margin-bottom: 25px;
 }
+.section-distance{
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
 
 
 /* FINE HEADER */
@@ -216,10 +217,6 @@ input{
 
 /* FINE HERO */
 
-
-.grandezza{
-    height: 1000px;
-}
 
 
 
@@ -253,3 +250,51 @@ input{
 }
 /* FINE BORDI */
 /* FINE SEZIONE OFFERTE */
+
+/* INIZIO QUADRATO */
+.quadrato{
+    width: 15vw;
+    height: 15vw;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.verde{
+    background-color: #a2d39b;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.rosso_scuro{
+    background-color: #61082b;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.celeste_chiaro{
+    background-color: #b4d0e7;
+    padding-top: 120px;
+}
+.rosso_chiaro{
+    background-color: #d5001f;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.celeste{
+    background-color: #0093ce;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.rosso{
+    background-color: #ff1c1c;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.blu{
+    background-color: #0d2481;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.giallo{
+    background-color: #ffd830;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+/* FINE QUADRATO */
