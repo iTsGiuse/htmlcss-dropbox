@@ -152,6 +152,11 @@ h2{
 .freccia-giu{
     font-size: 40px;
 }
+.angolo_giu{
+    text-align: right;
+    margin-right: 30px;
+}
+
 /* FINE ICONCINE */
 
 /* INIZIO LISTA */
@@ -185,7 +190,7 @@ h2{
     font-size: 15px;
 }
 .link_nero{
-    color : blue;
+    color : black;
 }
 .link_bianco{
     color : white;
@@ -280,6 +285,9 @@ input{
 }
 .bordo-inferiore{
     border-bottom: 0.5px solid grey;
+}
+.bordo-superiore{
+    border-top: 0.5px solid grey;
 }
 /* FINE BORDI */
 /* FINE SEZIONE OFFERTE */
