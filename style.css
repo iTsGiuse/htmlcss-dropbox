@@ -43,6 +43,17 @@ footer{
 .c-distanza{
     margin-top: 30px;
 }
+
+.c-quadrati{
+    margin-left: -8px;
+    margin-right: -8px;
+    border: 0px solid;
+}
+.c-quadrato{
+    width: calc(100% - 22vw);
+    background: #f5f5f5;
+    padding: 40px;
+}
 /* FINE CONTAINER */ 
 
 /* INIZIO BOX */ 
@@ -96,6 +107,12 @@ footer{
 .inline{
     display: inline;
 }
+.flex-center-wrap{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
 /* FINE DISPLAY */
 
 /* INIZIO IMMAGINI */
@@ -123,6 +140,13 @@ h2{
 }
 .txt-grigio{
     color: grey;
+}
+.txt-title-clienti{
+    font-size: 60px;
+}
+.txt_fidelizza{
+    font-size: 30px;
+    color: #61082b;
 }
 /* INIZIO ICONCINE */
 .freccia-giu{
@@ -177,7 +201,7 @@ input{
 }
 /* FINE INPUT */
 
-/* INIZIO HEADER */
+/* INIZIO DISTANZE */
 .distanza_header{
     margin-left: 10px;
     margin-right: 10px;
@@ -197,14 +221,15 @@ input{
     margin-top: 30px;
     margin-bottom: 25px;
 }
+.margin-top-bottom-50{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 .section-distance{
     margin-top: 150px;
     margin-bottom: 150px;
 }
-
-
-
-/* FINE HEADER */
+/* FINE DISTANZE */
 
 /* INIZIO HERO */
 .distanza-txt-hero{
@@ -215,10 +240,10 @@ input{
     margin-bottom: -40px;
 }
 
+.altezza-fidelizza{
+    height:  200px;
+}
 /* FINE HERO */
-
-
-
 
 /* INIZIO SEZIONE OFFERTE  */
 .margine-22-colonna{
@@ -232,6 +257,12 @@ input{
     margin-top: 40px;
     margin-bottom: 40px;
 }
+.hr-clienti-partner{
+    color: grey;
+    width: 200px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
 
 .btn-offerte{
     width: 300px;
@@ -241,6 +272,8 @@ input{
 .margine-40-offerte{
     margin-top: 40px;
 }
+
+
 /* INZIO BORDI */
 .bordi{
     border: 0.5px solid grey;
@@ -255,8 +288,10 @@ input{
 .quadrato{
     width: 15vw;
     height: 15vw;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 50px;
+}
+.immagine-bianca{
+    filter: invert(1);
 }
 .verde{
     background-color: #a2d39b;
