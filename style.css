@@ -30,12 +30,24 @@ footer{
     max-width: 1000px;
     margin: 0 auto;
 }
+
+.c-sfondo-blu{
+    background-color: #b4d0e7;
+}
+
+.c-title{
+    margin-top: 40px;
+}
 /* FINE CONTAINER */ 
 
 /* INIZIO BOX */ 
 .box{
     border: 1px solid transparent;
 }
+.b-title{
+    margin-bottom: 20px;
+}
+
 /* FINE BOX  */
 
 /* INIZIO BUTTON  */
@@ -72,12 +84,24 @@ footer{
 /* FINE DISPLAY */
 
 /* INIZIO IMMAGINI */
-.logo{
+.logo, .image-hero{
     width: 100%;
 }
 /* FINE IMMAGINI */
 
 /* INIZIO TESTO */
+.txt-title-hero{
+    font-size: 65px;
+}
+.txt-hero, .txt-button-hero{
+    font-size: 20px;
+}
+
+/* INIZIO ICONCINE */
+.freccia-giu{
+    font-size: 40px;
+}
+/* FINE ICONCINE */
 
 /* INIZIO LISTA */
 .ul_header, .li_header{
@@ -129,3 +153,14 @@ footer{
     gap: 20px;
 }
 /* FINE HEADER */
+
+/* INIZIO HERO */
+.distanza-txt-hero{
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+.altezza-hero{
+    margin-bottom: -40px;
+}
+
+/* FINE HERO */
