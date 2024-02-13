@@ -103,7 +103,7 @@ footer{
 /* FINE DISPLAY */
 
 /* INIZIO IMMAGINI */
-.logo, .image-hero, .image-trova-partner{
+.logo, .image-hero, .image-trova-partner, img{
     width: 100%;
 }
 /* FINE IMMAGINI */
